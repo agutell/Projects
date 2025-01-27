@@ -64,6 +64,32 @@ In this work we tried to fine-tune large language models on a summarization task
 ## Transfer Learning - A Deep Learning Approach
 The paper explores transfer learning together with pseudo labeling and semi-supervised learning.
 
+Deep learning models have helped us in accomplishing many feats in modern
+society. Although state-of-the-art models such as ChatGPT, DALL-E and VALL-E
+are the best in their fields, they are also computationally expensive and require an
+abundant amount of resources. One solution is to make use of transfer learning,
+a method that utilizes a pre-trained model as a starting point to solve a similar
+task. Through this method, fewer resources are required and can also improve
+generalization.
+Similarly to many other deep learning approaches, transfer learning requires labeled
+data. The process of manually labeling data is both time-consuming and laborintensive.
+In the last decade, however, semi-supervised learning has become a hot
+topic to relieve the need for labeled data. This method of training models trains on
+labeled data and exploits unlabeled data to further improve learning performance.
+One such method is known as pseudo-labeling. This method has gained popularity
+and attention in recent times.
+This report analyzes an implementation of transfer learning on Oxford’s pet dataset.
+In addition, a thorough analysis of semi-supervised learning using pseudo-labeling
+as an extension to this project will be performed. The final test accuracy on the
+multi-classification task was 93.5% which suggests the model classifies the classes
+well. In comparison to other existing models, it seems visual transformers perform
+better than ResNets in this task. The results from semi-supervised learning indicate
+that pseudo-labeling improves the performance if the amount of labeled data is
+limited but more experiments and other variants of this approach should be further
+test.
+
+**PDF** is available at: [view](https://github.com/agutell/Projects/blob/main/Transfer%20Learning%20-%20A%20Deep%20Learning%20Approach.pdf)
+
 ## TSA on Temperature and Exchange Rate
 Project report exploring time series forecasting on data from SMHI and exchange rate between the USD and EUR.
 
