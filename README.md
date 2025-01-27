@@ -14,7 +14,7 @@ and limitations.
 
 **Code** is available at: [GitHub Repository](https://github.com/KTH-DD2412-Project-Group-18/diffusion_posterior_sampling)
 
-[View the PDF](https://github.com/agutell/Projects/blob/main/%5BRe%5D%20Diffusion%20Posterior%20Sampling%20for%20Noisy%20Inverse%20Problems.pdf)
+**PDF** is available at: [view](https://github.com/agutell/Projects/blob/main/%5BRe%5D%20Diffusion%20Posterior%20Sampling%20for%20Noisy%20Inverse%20Problems.pdf)
 
 ## Contrast to the Past - Autoregressive Contrastive Temporal Knowledge Graph Extrapolation
 Graphs are fundamental across various fields, representing complex relationships and structures — such as social
