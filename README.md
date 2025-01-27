@@ -25,6 +25,35 @@ networks, chemical bonds, and even neural networks in machine learning. Knowledg
 ## Explainable Machine Learning in Cardiovascular Diagnostics
 Bachelor Thesis at KTH: Explainable Machine Learning in Cardiovascular
 Diagnostics
+
+The major challenges in implementing machine
+learning models in medical applications stem from ethical and
+accountability concerns, which arise from the lack of insight
+and understanding of the models’ inner workings and reasoning. This opaqueness has resulted in the emergence of a
+new subfield of machine learning called Explainability, which
+aims to develop and deploy methods to gain insight into how
+input data is weighted and propagated through a machine
+learning algorithm. This paper aims to examine the viability
+of certain explainability methods when applied to cardiovascular
+diagnostics. The machine learning models that were implemented
+and subsequently evaluated include Logistic Regression, Decision
+Trees, and Random Forests. Methods such as Feature Importance
+plots, Lasso Regularization (L1 norm), and Sequential Feature
+Selection were applied to achieve better interpretation of these
+models. The results indicate that different models and forms
+of regularization prioritize various input features more heavily
+than others, even when trained on identical data. A consistent
+finding across all models, except for Logistic Regression with
+Lasso regularization, was the ability to significantly reduce the
+dimensionality of the input feature space without substantial
+loss in model test performance. This allows for the isolation of
+specific features, thereby enhancing insight into and improving
+a model’s interpretability. Systolic and diastolic blood pressure
+along with cholesterol values were the two main input features
+that determined a patients cardiovascular diagnosis.
+
+**PDF** is available at: [view](https://github.com/agutell/Projects/blob/main/Explainable%20Machine%20Learning%20in%20Cardiovascular%20Diagnostics.pdf)
+
 ## Transfer Learning - A Deep Learning Approach
 The paper explores transfer learning together with pseudo labeling and semi-supervised learning.
 ## Quantization and Finetuning of LLMs
