@@ -13,6 +13,30 @@ statistical analysis of LPIPS scores to better understand the model’s performa
 and limitations.
 
 **Code** is available at: [GitHub Repository](https://github.com/KTH-DD2412-Project-Group-18/diffusion_posterior_sampling)
+
+## Contrast to the Past - Autoregressive Contrastive Temporal Knowledge Graph Extrapolation
+Graphs are fundamental across various fields, rep-
+resenting complex relationships and structures—such as social
+networks, chemical bonds, and even neural networks in machine
+learning. Knowledge graphs extend this concept to organize real world information into entities and relationships, structuring
+facts in interconnected ways. However, traditional knowledge
+graphs lack temporal context, limiting their ability to capture the
+evolution of information over time. Temporal Knowledge Graphs
+(TKGs) address this by adding a temporal dimension, enabling
+dynamic analysis and prediction of future events by tracking how
+interactions evolve across timestamps.
+This project seeks to improve the RE-GCN model for extrapo-
+lation tasks on TKGs, specifically for predicting events involving
+unseen entities or relationships. By integrating a contrastive
+learning framework inspired by the CENET model, our approach
+enhances RE-GCN’s ability to distinguish historical from non-
+historical dependencies, which in turn improves predictive ac-
+curacy on complex, dynamic datasets. Experimental results on
+the ICEWS18 dataset demonstrate that our modifications to RE-
+GCN lead to unchanged accuracy in capturing both historical
+and non-historical dependencies. These results underscore the
+complexity of modeling diverse temporal patterns within TKGs and highlight areas for further refinement, such as improved calibration techniques and extensions for uncertainty quantification.
+
 ## Explainable Machine Learning in Cardiovascular Diagnostics
 Bachelor Thesis at KTH: Explainable Machine Learning in Cardiovascular
 Diagnostics
