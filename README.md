@@ -54,18 +54,21 @@ that determined a patients cardiovascular diagnosis.
 
 **PDF** is available at: [view](https://github.com/agutell/Projects/blob/main/Explainable%20Machine%20Learning%20in%20Cardiovascular%20Diagnostics.pdf)
 
-## Transfer Learning - A Deep Learning Approach
-The paper explores transfer learning together with pseudo labeling and semi-supervised learning.
 ## Quantization and Finetuning of LLMs
-Quantization and finetuning of Llama-2-7B and Mistral-7B for generation of WikiHow articles.
+In this work we tried to fine-tune large language models on a summarization task on a wikihow dataset. More precisely, we made our experimentations with Mistral-7B and LLama-2-7B. We used different parameter efficient tuning techniques such as QLoRA to be able to run the computations on limited resources. We proceeded to a hyper-parameter comparison on the low-rank adapter parameters, and used the best model for our final tuning. We found that descent results could be achieved, even with few steps of training, and with a low adapter rank.
 
 **Code** is available at: [GitHub Repository]([https://github.com/KTH-DD2412-Project-Group-18/diffusion_posterior_sampling](https://github.com/agutell/Quantization-and-Finetuning-of-LLMs))
 
 **PDF** is available at: [view](https://github.com/agutell/Projects/blob/main/Quantization%20and%20Finetuning%20of%20LLMs.pdf)
 
+## Transfer Learning - A Deep Learning Approach
+The paper explores transfer learning together with pseudo labeling and semi-supervised learning.
+
 ## TSA on Temperature and Exchange Rate
-Project report exploring time series forecasting on data from SMHI and exchange rate between the USD and EUR. 
-## Reimplementation of Importance Weighted Autoencoders 
+Project report exploring time series forecasting on data from SMHI and exchange rate between the USD and EUR.
+
+## [Re] Importance Weighted Autoencoders 
 Reimplementation of Y. Burda, R. Grosse, and R. Salakhutdinov. Importance weighted autoencoders
+
 ## Active Debris Removal from Space
 Evaluation of an active debris removal method. This report explores an early-stage idea of how space debris can be removed more efficiently.
