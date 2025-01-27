@@ -58,6 +58,11 @@ that determined a patients cardiovascular diagnosis.
 The paper explores transfer learning together with pseudo labeling and semi-supervised learning.
 ## Quantization and Finetuning of LLMs
 Quantization and finetuning of Llama-2-7B and Mistral-7B for generation of WikiHow articles.
+
+**Code** is available at: [GitHub Repository]([https://github.com/KTH-DD2412-Project-Group-18/diffusion_posterior_sampling](https://github.com/agutell/Quantization-and-Finetuning-of-LLMs))
+
+**PDF** is available at: [view](https://github.com/agutell/Projects/blob/main/Quantization%20and%20Finetuning%20of%20LLMs.pdf)
+
 ## TSA on Temperature and Exchange Rate
 Project report exploring time series forecasting on data from SMHI and exchange rate between the USD and EUR. 
 ## Reimplementation of Importance Weighted Autoencoders 
