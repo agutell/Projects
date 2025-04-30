@@ -1,4 +1,20 @@
 # Projects
+
+## Real-time Traffic Monitoring and Prediction of Traffic Flow
+
+This project was developed to gain experience in Dockerized applications and analysis of real-time streaming time series data. We built an end-to-end application that:
+
+* Collects real-time traffic data from Trafikverket's API through a Kafka producer
+* Processes streaming data using Apache Kafka
+* Performs real-time analysis and feature engineering with PySpark
+* Forecasts traffic conditions five minutes into the future using:
+  * A Gated Recurrent Unit (GRU) built using PyTorch
+  * A simple Moving Average model for comparison written with PySpark
+
+Visualizes both current traffic conditions and predictions in an interactive dashboard
+
+**Code** is available at: [GitHub Repository](https://github.com/agutell/traffic-monitoring-and-prediction)
+
 ## [Re] Diffusion Posterior Sampling for Noisy Inverse Problems
 This paper aims to reproduce the experiments presented in Chung et al. [2023],
 where the authors propose a sampling technique for solving inverse problems with
