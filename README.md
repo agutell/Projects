@@ -1,7 +1,7 @@
 # Projects
 
 ## Real-time Traffic Monitoring and Prediction of Traffic Flow
-
+![Demo](assets/traffic.gif)
 This project was developed to gain experience in Dockerized applications and analysis of real-time streaming time series data. We built an end-to-end application that:
 
 * Collects real-time traffic data from Trafikverket's API through a Kafka producer
@@ -16,6 +16,7 @@ Visualizes both current traffic conditions and predictions in an interactive das
 **Code** is available at: [GitHub Repository](https://github.com/agutell/traffic-monitoring-and-prediction)
 
 ## [Re] Diffusion Posterior Sampling for Noisy Inverse Problems
+![Demo](assets/dps.png)
 This paper aims to reproduce the experiments presented in Chung et al. [2023],
 where the authors propose a sampling technique for solving inverse problems with
 diffusion models as priors. Our re-implementation successfully reproduces the
