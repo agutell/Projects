@@ -1,7 +1,7 @@
-# Projects
+# Real-time Traffic Monitoring and Prediction of Traffic Flow
 
-## Real-time Traffic Monitoring and Prediction of Traffic Flow
 ![Demo](assets/traffic.gif)
+
 This project was developed to gain experience in Dockerized applications and analysis of real-time streaming time series data. We built an end-to-end application that:
 
 * Collects real-time traffic data from Trafikverket's API through a Kafka producer
@@ -15,8 +15,10 @@ Visualizes both current traffic conditions and predictions in an interactive das
 
 **Code** is available at: [GitHub Repository](https://github.com/agutell/traffic-monitoring-and-prediction)
 
-## [Re] Diffusion Posterior Sampling for Noisy Inverse Problems
+# [Re] Diffusion Posterior Sampling for Noisy Inverse Problems
+
 ![Demo](assets/dps.png)
+
 This paper aims to reproduce the experiments presented in Chung et al. [2023],
 where the authors propose a sampling technique for solving inverse problems with
 diffusion models as priors. Our re-implementation successfully reproduces the
@@ -33,13 +35,13 @@ and limitations.
 
 **PDF** is available at: [view](https://github.com/agutell/Projects/blob/main/%5BRe%5D%20Diffusion%20Posterior%20Sampling%20for%20Noisy%20Inverse%20Problems.pdf)
 
-## Contrast to the Past - Autoregressive Contrastive Temporal Knowledge Graph Extrapolation
+# Contrast to the Past - Autoregressive Contrastive Temporal Knowledge Graph Extrapolation
 Graphs are fundamental across various fields, representing complex relationships and structures — such as social
 networks, chemical bonds, and even neural networks in machine learning. Knowledge graphs extend this concept to organize real world information into entities and relationships, structuring facts in interconnected ways. However, traditional knowledge graphs lack temporal context, limiting their ability to capture the evolution of information over time. Temporal Knowledge Graphs (TKGs) address this by adding a temporal dimension, enabling dynamic analysis and prediction of future events by tracking how interactions evolve across timestamps. This project seeks to improve the RE-GCN model for extrapolation tasks on TKGs, specifically for predicting events involving unseen entities or relationships. By integrating a contrastive learning framework inspired by the CENET model, our approach enhances RE-GCN’s ability to distinguish historical from non-historical dependencies, which in turn improves predictive accuracy on complex, dynamic datasets. Experimental results on the ICEWS18 dataset demonstrate that our modifications to RE-GCN lead to unchanged accuracy in capturing both historical and non-historical dependencies. These results underscore the complexity of modeling diverse temporal patterns within TKGs and highlight areas for further refinement, such as improved calibration techniques and extensions for uncertainty quantification.
 
 **PDF** is available at: [view](https://github.com/agutell/Projects/blob/main/Contrast%20to%20the%20Past%20-%20Autoregressive%20Contrastive%20Temporal%20Knowledge%20Graph%20Extrapolation.pdf)
 
-## Explainable Machine Learning in Cardiovascular Diagnostics
+# Explainable Machine Learning in Cardiovascular Diagnostics
 Bachelor Thesis at KTH: Explainable Machine Learning in Cardiovascular
 Diagnostics
 
@@ -71,14 +73,14 @@ that determined a patients cardiovascular diagnosis.
 
 **PDF** is available at: [view](https://github.com/agutell/Projects/blob/main/Explainable%20Machine%20Learning%20in%20Cardiovascular%20Diagnostics.pdf)
 
-## Quantization and Finetuning of LLMs
+# Quantization and Finetuning of LLMs
 In this work we tried to fine-tune large language models on a summarization task on a wikihow dataset. More precisely, we made our experimentations with Mistral-7B and LLama-2-7B. We used different parameter efficient tuning techniques such as QLoRA to be able to run the computations on limited resources. We proceeded to a hyper-parameter comparison on the low-rank adapter parameters, and used the best model for our final tuning. We found that descent results could be achieved, even with few steps of training, and with a low adapter rank.
 
 **Code** is available at: [GitHub Repository](https://github.com/agutell/Quantization-and-Finetuning-of-LLMs)
 
 **PDF** is available at: [view](https://github.com/agutell/Projects/blob/main/Quantization%20and%20Finetuning%20of%20LLMs.pdf)
 
-## Transfer Learning - A Deep Learning Approach
+# Transfer Learning - A Deep Learning Approach
 The paper explores transfer learning together with pseudo labeling and semi-supervised learning.
 
 Deep learning models have helped us in accomplishing many feats in modern
@@ -107,7 +109,7 @@ test.
 
 **PDF** is available at: [view](https://github.com/agutell/Projects/blob/main/Transfer%20Learning%20-%20A%20Deep%20Learning%20Approach.pdf)
 
-## TSA on Temperature and Exchange Rate
+# TSA on Temperature and Exchange Rate
 Project report exploring time series forecasting on data from SMHI and exchange rate between the USD and EUR.
 
 ## [Re] Importance Weighted Autoencoders 
