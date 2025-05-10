@@ -17,7 +17,7 @@ Visualizes both current traffic conditions and predictions in an interactive das
 
 # [Re] Diffusion Posterior Sampling for Noisy Inverse Problems
 
-![Demo](assets/dps.png)
+![Demo](assets/dps.png){width=50%}
 
 This paper aims to reproduce the experiments presented in Chung et al. [2023],
 where the authors propose a sampling technique for solving inverse problems with
