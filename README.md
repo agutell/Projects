@@ -31,7 +31,7 @@ studies on mask size for Random and Box Inpainting, and perform an in-depth
 statistical analysis of LPIPS scores to better understand the model’s performance
 and limitations.
 
-**Code** is available at: [GitHub Repository](https://github.com/KTH-DD2412-Project-Group-18/diffusion_posterior_sampling)
+**Code** is available at: [GitHub Repository](https://github.com/DanVicenteIhanus/diffusion_posterior_sampling)
 
 **PDF** is available at: [view](https://github.com/agutell/Projects/blob/main/%5BRe%5D%20Diffusion%20Posterior%20Sampling%20for%20Noisy%20Inverse%20Problems.pdf)
 
@@ -112,8 +112,8 @@ test.
 # TSA on Temperature and Exchange Rate
 Project report exploring time series forecasting on data from SMHI and exchange rate between the USD and EUR.
 
-## [Re] Importance Weighted Autoencoders 
+# [Re] Importance Weighted Autoencoders 
 Reimplementation of Y. Burda, R. Grosse, and R. Salakhutdinov. Importance weighted autoencoders
 
-## Active Debris Removal from Space
+# Active Debris Removal from Space
 Evaluation of an active debris removal method. This report explores an early-stage idea of how space debris can be removed more efficiently.
